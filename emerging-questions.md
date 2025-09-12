@@ -1,4 +1,60 @@
-## 1. Are larger lots more likely to be owned by out-of-town owners?
+## 1. Zoning Patterns
+
+- Most vacant lots are in **residential zones**:
+  - **R-1-N (Single-Family)** → 122 lots
+  - **R-2-N (Two-Family)** → 23 lots
+
+- Significant numbers in **commercial/industrial zones**:
+  - **CCA (Commercial Central Area)** → 75 lots
+  - **IG (General Industrial)** → 23 lots
+  - **SP-1-M (Special Purpose)** → 46 lots
+
+👉 This suggests both **housing potential** and **redevelopment opportunities** in business districts.
+
+---
+
+## 2. Geographic Distribution
+
+- Lots are unevenly distributed by ZIP code:
+  - **90805 (North Long Beach)** → 67 lots
+  - **90813 (Central Long Beach)** → 59 lots
+  - **90806 (West/Central)** → 53 lots
+  - Other ZIPs show smaller counts.
+
+- Note: 384 records had missing/zero ZIPs — we may want to map them by coordinates if available.
+
+👉 Vacant lots are **clustered in historically underserved neighborhoods** like 90805 and 90813.
+
+---
+
+## 3. Lot Size Impact
+
+- **Median size**: ~5,900 sq ft (small parcels, typical residential infill).
+- **75th percentile**: ~8,500 sq ft.
+- **Largest lot**: over **630,000 sq ft (~14.5 acres)**.
+- **Smallest lot**: ~29 sq ft (probably a sliver parcel).
+
+👉 Most lots are **small infill opportunities**, but there are a few **very large tracts** that could be major redevelopment sites.
+
+---
+
+## 4. Ownership Patterns
+
+- **Top owner cities**:
+  - Long Beach, CA → 320 lots (53%)
+  - Irvine, CA → 37 lots
+  - Los Angeles, CA → 22 lots
+  - Signal Hill & Fountain Valley → 13 each
+  - Newport Beach → 10 lots
+  - Out-of-state: Austin, TX (7 lots), Hagåtña, GU (4 lots), Atlanta, GA (4 lots).
+
+- **Ownership by state**:
+  - California-based → **552 lots**
+  - Out-of-state owners → **34 lots**
+
+👉 Most owners are **local or regional**, but out-of-state ownership still accounts for a noticeable chunk.
+
+## 5. Are larger lots more likely to be owned by out-of-town owners?
 
 - **Out-of-town owners** (not based in Long Beach):
   - Median lot size ≈ **6,041 sq ft**
@@ -12,7 +68,7 @@
 
 ---
 
-## 2. Do certain owners control clusters of lots?
+## 6. Do certain owners control clusters of lots?
 
 Yes — ownership is **highly concentrated** in a few entities:
 
@@ -25,7 +81,7 @@ Yes — ownership is **highly concentrated** in a few entities:
 
 ---
 
-## 3. Do high-vacancy neighborhoods correlate with zoning?
+## 7. Do high-vacancy neighborhoods correlate with zoning?
 
 Breaking it down by ZIP and zoning:
 
@@ -44,7 +100,7 @@ Breaking it down by ZIP and zoning:
 
 ---
 
-## 4. Proximity to schools, parks, or transit
+## 8. Proximity to schools, parks, or transit
 
 - The spreadsheet does **not contain school/park/transit data**.
 - To answer this, we’d need to **overlay the parcel data on a city GIS layer** of amenities and infrastructure.
@@ -59,4 +115,3 @@ Breaking it down by ZIP and zoning:
 - **Concentration signal**: A few corporate entities control **dozens of lots**, possibly for strategic development or land banking.
 - **Equity signal**: Vacant lots are clustered in **lower-income ZIP codes** (90805, 90813), amplifying potential community impact.
 - **Policy opportunity**: Differentiating between **residential infill** vs **commercial corridor** vacancies could guide redevelopment priorities.
-"""
