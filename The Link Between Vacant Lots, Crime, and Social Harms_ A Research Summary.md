@@ -1,9 +1,5 @@
 # The Link Between Vacant Lots, Crime, and Social Harms: A Research Summary
 
-**Author:** Manus AI
-
-**Date:** September 12, 2025
-
 ## Introduction
 
 The presence of vacant lots in urban areas has long been a subject of concern for residents, policymakers, and researchers. These empty parcels of land are often seen as indicators of neighborhood decline and have been linked to a range of negative outcomes, including increased crime rates and various social harms. This research summary synthesizes findings from scientific literature to explore the complex relationship between vacant lots, crime, and social harms, and examines the impact of interventions aimed at mitigating these issues.
